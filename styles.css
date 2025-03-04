@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'ka'; /* Give your font a name */
+    src: url(./font/kaerukaeru-Regular.otf); /* Path to your font file */
+} 
+@font-face {
+    font-family: 'pl';
+    src: url(./font/Pilowlava-Regular.otf);
+}
+
+.contenttable{
+    background-color:aliceblue;
+    box-sizing: border-box;
+    width:600px;
+    height:auto;
+    margin:300px auto;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20pt;
+    font-weight: 500;
+    text-align:center;
+    line-height: 1.2;
+}
+
+.number{
+    font-size: 70px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    text-align: center;
+
+}
+.in{
+    box-sizing: border-box;
+    height:700px;
+    text-align: center;
+}
+/*.introbox{
+    box-sizing: border-box;
+    width:150px;
+    height:65px;
+    border-radius:50px;
+    margin:10px auto;
+    padding-bottom: 5px;
+    background-color:aliceblue;
+}*/
+
+.boxa{
+    box-sizing: border-box;
+    width:900px;
+    height:max-content;
+    margin:30px auto;
+    border:20px auto;
+    padding:50px;
+}
+
+
+.subhead{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20pt;
+    font-weight: 700;
+    text-align:center;
+    color:black;
+}
+
+.sign{
+    font-family:'ka';
+    font-size:30pt;
+    font-weight: 500;
+    text-align:center;
+}
+.author{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15pt;
+    font-weight: 700;
+    text-align:left;
+    color:black;
+}
+
+.date{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15pt;
+    font-weight: 700;
+    text-align:right;
+    color:black;
+}
+
+body{
+    background-image:url(./image/dino.png);
+    background-repeat:repeat;
+    background-size:auto;
+}
+h1{font-family:'ka';
+    font-size: 120pt;
+    font-weight: 100;
+    text-align:center;
+    color:black;
+}
+h2{font-family:'ka';
+    font-size: 50pt;
+    color:black;
+    text-align: center;
+    font-weight: 200;
+    }
+h3,h4,h5{font-family:'pl';
+    text-align: center;
+    font-weight:bold;
+    font-size: 30pt;
+    color:blue;
+}
+
+.introtext{box-sizing:border-box;
+    width:900px;
+    height:300px;
+    margin:auto;
+    font-family:sans-serif;
+    text-align: center;
+    line-height: 1.5;
+    font-weight:600;
+    font-size: 20pt;
+    color:black;
+}
+
+.breakbox{
+    box-sizing: content-box;
+    width:max-content;
+    height:max-content;
+    padding:70px 0;
+    margin:auto;
+    text-align:center;
+}
+.break{
+    font-family: 'ka';
+    font-size: 70pt;
+}
+
+img{
+    max-width: 100%;
+    height:auto;
+}
+
+.textone{
+    box-sizing: border-box;
+    width: 105%;
+    height:auto;
+    padding:20px 20px 20px 20px;
+    background-color: aliceblue;
+    font-family:sans-serif;
+    text-align: start;
+    font-weight:bold;
+    font-size: 15pt;
+    line-height:1.5;
+    font-kerning:auto;
+    color:blue;
+}
+
+.caption{
+    font-family: sans-serif;
+    font-size: 10pt;
+    font-weight: 100;
+    line-height: 0.1;
+
+}
+
+.cite{
+    box-sizing: content-box;
+    width:200px;
+    height:150px;
+    border-radius:40px;
+    margin:auto;
+    padding: 10px 20px 10px 20px;
+    background-color:aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15pt;
+    font-weight:600;
+    text-align: center;
+}
+
+a:link{
+    text-decoration:none;
+    color:blue;
+}
+
+a:visited{
+    color:blueviolet
+}
+
+a:hover{
+    color:aqua;
+}
